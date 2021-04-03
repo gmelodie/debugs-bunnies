@@ -185,3 +185,24 @@ a {
   text-decoration: none;
   margin: 0 50px;
 }
+footer {
+  border-top: 2px solid #00ff00;
+  padding-top: 20px;
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #e98e1b;
+  margin: auto;
+  padding: 0 20px 20px;
+  background-color: #0A01A7;
+  /* space between content and footer */
+  margin-top: 20px;
+}
+
+.footer-text{
+  color: #e98e1b;
+  text-align: center;
+}
+
