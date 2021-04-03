@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
 *,
 html {
   scroll-behavior: smooth;
@@ -10,15 +11,18 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+
 button {
   cursor: pointer;
 }
+
 button.menu-button:hover {
   color: #00ff00;
   border: #ff057b;
   border-style: solid;
   text-shadow: 1px 1px 2px #00ff00;
 }
+
 button.menu-button {
   cursor: pointer;
   border: none;
@@ -46,6 +50,7 @@ button.menu-button {
   font-weight: bold;
   font-size: 35px;
 }
+
 .numbers {
   color: #00ff00;
   z-index: 999999;
@@ -53,10 +58,12 @@ button.menu-button {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
 }
+
 .pod-name {
   color: #00ff00;
   text-decoration: line-through;
 }
+
 .about-us {
   position: relative;
   z-index: 99;
@@ -67,10 +74,12 @@ button.menu-button {
   font-weight: bold;
   text-align: right;
 }
+
 p {
   font-size: 35px;
   font-family: "Roboto", sans-serif;
 }
+
 .spotify {
   text-align: center;
 }
@@ -80,6 +89,7 @@ p {
   color: #00ff00;
   text-shadow: 1px 1px 2px #00ff00;
 }
+
 audio {
   margin-top: 0.5%;
   border: #00ff00;
@@ -90,6 +100,7 @@ audio {
   box-shadow: 1px 1px 2px #00ff00;
   z-index: 999999999;
 }
+
 audio:focus {
   outline: none;
   border: #ff057b;
@@ -97,23 +108,6 @@ audio:focus {
   box-shadow: 1px 1px 2px #ff057b;
 }
 
-/* Style the navbar */
-/* #navbar {
-  overflow: hidden;
-  background-color: #0f033a;
-} */
-/* ul {
-  display: flex;
-  list-style: none;
-}
-.menu-button {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.logo {
-  margin-left: 50%;
-} */
 @keyframes floatText {
   to {
     transform: translateX(-100%);
@@ -124,6 +118,7 @@ audio:focus {
   .main-title {
     font-size: 4vw;
   }
+
   p {
     font-size: 2.8vw;
   }
@@ -133,6 +128,7 @@ audio:focus {
   .main-title {
     font-size: 50px;
   }
+
   p {
     font-size: 38px;
   }
@@ -142,6 +138,7 @@ audio:focus {
   .main-title {
     font-size: 40px;
   }
+
   p {
     font-size: 28px;
   }
@@ -151,6 +148,7 @@ audio:focus {
   .main-title {
     font-size: 35px;
   }
+
   p {
     font-size: 25px;
   }
@@ -162,13 +160,16 @@ audio:focus {
     margin-right: 0%;
     text-align: center;
   }
+
   .main-title {
     font-size: 55px;
   }
+
   p {
     font-size: 22px;
   }
 }
+
 nav {
   display: flex;
   width: 100%;
@@ -184,4 +185,33 @@ nav {
 a {
   text-decoration: none;
   margin: 0 50px;
+}
+
+footer {
+  border-top: 2px solid #00ff00;
+  padding-top: 20px;
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #e98e1b;
+  margin: auto;
+  padding: 0 20px 20px;
+  background-color: #0A01A7;
+  /* space between content and footer */
+  margin-top: 20px;
+}
+
+.footer-text {
+  color: #e98e1b;
+  text-align: center;
+}
+
+.github-icon {
+  color: #00ff00;
+}
+
+section.people-gallery {
+  margin-top: -100%;
 }
