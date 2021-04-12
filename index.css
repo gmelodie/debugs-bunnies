@@ -10,6 +10,7 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
+
 button {
   cursor: pointer;
 }
@@ -97,23 +98,6 @@ audio:focus {
   box-shadow: 1px 1px 2px #ff057b;
 }
 
-/* Style the navbar */
-/* #navbar {
-  overflow: hidden;
-  background-color: #0f033a;
-} */
-/* ul {
-  display: flex;
-  list-style: none;
-}
-.menu-button {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.logo {
-  margin-left: 50%;
-} */
 @keyframes floatText {
   to {
     transform: translateX(-100%);
@@ -184,4 +168,32 @@ nav {
 a {
   text-decoration: none;
   margin: 0 50px;
+}
+footer {
+  border-top: 2px solid #00ff00;
+  padding-top: 20px;
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #e98e1b;
+  margin: auto;
+  padding: 0 20px 20px;
+  background-color: #0A01A7;
+  /* space between content and footer */
+  margin-top: 20px;
+}
+
+.footer-text{
+  color: #e98e1b;
+  text-align: center;
+}
+
+.github-icon{
+  color: #00ff00;
+}
+
+section.people-gallery{
+  margin-top: -100%;
 }
